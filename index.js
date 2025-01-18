@@ -16,7 +16,7 @@ async function getData() {
     });
    
     new Chart(ctx, {
-        type: 'bar',
+        type: 'radar',
         data: {
             labels: yearArr,
             datasets: [{
